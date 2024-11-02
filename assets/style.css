@@ -568,6 +568,7 @@ section {
     border: 2px solid;
     border-radius: 8px;
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .aside-search input {
@@ -575,5 +576,4 @@ section {
     border: none;
     outline: none;
     background: transparent;
-    margin-bottom: 10px;
 }
