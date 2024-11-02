@@ -25,7 +25,7 @@ let products = [
     {
         title : "Canva Pro (unlimited)",
         price : 130,
-        image : "./products/media/canva.png",
+        image : `${source}/canva.png`,
         discount : 20,
         trend : false,
         category : "Design",
@@ -35,7 +35,7 @@ let products = [
     {
         title : "EA FC25 Ultimate edition",
         price : 200,
-        image : "./products/media/fc25.png",
+        image : `${source}/fc25.png`,
         discount : 50,
         trend : true,
         category : "Gaming",
@@ -45,7 +45,7 @@ let products = [
     {
         title : "Efootball Coins - Mobile",
         price : 20,
-        image : "./products/media/efootball.png",
+        image : `${source}/efootball.png`,
         discount : 15,
         trend : true,
         category : "Gaming",
@@ -55,7 +55,7 @@ let products = [
     {
         title : "Red Dead Redemption II",
         price : 300,
-        image : "./products/media/RDRII.png",
+        image : `${source}/RDRII.png`,
         discount : 35,
         trend : true,
         category : "Gaming",
@@ -65,7 +65,7 @@ let products = [
     {
         title : "xbox game pass (12mo)",
         price : 100,
-        image : "./products/media/xbox.png",
+        image : `${source}/xbox.png`,
         discount : 5,
         trend : false,
         category : "Gaming",
@@ -75,7 +75,7 @@ let products = [
     {
         title : "Shahid Vip (24mo)",
         price : 100,
-        image : "./products/media/shahid.png",
+        image : `${source}/shahid.png`,
         discount : 30,
         trend : false,
         category : "Movies & Tv",
@@ -85,7 +85,7 @@ let products = [
     {
         title : "Iptv Football (12mo)",
         price : 80,
-        image : "./products/media/iptv.png",
+        image : `${source}/iptv.png`,
         discount : 0,
         trend : false,
         category : "Movies & Tv",
@@ -95,7 +95,7 @@ let products = [
     {
         title : "Free Fire Account",
         price : 50,
-        image : "./products/media/ff.png",
+        image : `${source}/ff.png`,
         discount : 8.2,
         trend : false,
         category : "Gaming",
@@ -105,7 +105,7 @@ let products = [
     {
         title : "TOD 12 mounth",
         price : 300,
-        image : "./products/media/tod.jpg",
+        image : `${source}/tod.jpg`,
         discount : 35,
         trend : true,
         category : "Movies & Tv",
@@ -115,7 +115,7 @@ let products = [
     {
         title : "StarzPlay Premium 12mo",
         price : 200,
-        image : "./products/media/SP.jpg",
+        image : `${source}/SP.jpg`,
         discount : 15,
         trend : false,
         category : "Movies & Tv",
@@ -125,7 +125,7 @@ let products = [
     {
         title : "StarzPlay Premium 12mo",
         price : 200,
-        image : "./products/media/SP.jpg",
+        image : `${source}/SP.jpg`,
         discount : 15,
         trend : false,
         category : "Movies & Tv",
@@ -135,7 +135,7 @@ let products = [
     {
         title : "Adobe Photoshop",
         price : 270,
-        image : "./products/media/ps.jpg",
+        image : `${source}/ps.jpg`,
         discount : 70,
         trend : false,
         category : "Design",
