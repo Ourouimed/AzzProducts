@@ -534,3 +534,22 @@ section {
 .close-prod-popup::before {
     content: "\58";
 }
+
+.search-input {
+    background: #ededed;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 8px;
+    max-width: 100%;
+    width: 300px;
+}
+
+
+.search-input input {
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 100%;
+}
