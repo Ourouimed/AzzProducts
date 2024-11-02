@@ -540,7 +540,7 @@ section {
     display: flex;
     align-items: center;
     gap: 5px;
-    padding: 15px;
+    padding: 10px 15px;
     border-radius: 8px;
     max-width: 100%;
     width: 360px;
