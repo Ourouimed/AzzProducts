@@ -14,7 +14,7 @@ let MoviesTv = [];
 let Design = [];
 let Gaming = []
 
-for(i in products){
+for(let i in products){
 if (products[i].trend){
     trend.push(products[i])
 }
