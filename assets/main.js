@@ -1,3 +1,5 @@
+import {name} from "./script.js"
+console.log(name)
 let Year = new Date()
 let currentYear = Year.getFullYear(2020)
 let dateSpan = document.querySelector("span.date")
