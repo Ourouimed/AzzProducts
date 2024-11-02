@@ -170,11 +170,6 @@ else if (products[i].category == "Gaming"){
     Gaming.push(products[i])
 }
 }
-console.log(trend)
-console.log(Music)
-console.log(MoviesTv)
-console.log(Design)
-console.log(Gaming)
 
 
 // //Create Producte and apend it in main page
