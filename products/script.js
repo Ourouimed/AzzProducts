@@ -1,9 +1,10 @@
 let AllProducts = document.querySelector(".products-grid.all")
+let source= "./media"
 let products = [
     {
         title : "spotify account (12 mo)",
         price : 100,
-        image : "./products/media/spotify.png",
+        image : `${source}/spotify.png`,
         discount : 0,
         trend : true,
         category : "Music",
@@ -14,7 +15,7 @@ let products = [
     {
         title : "Netflix account (12 mo)",
         price : 90,
-        image : "./products/media/netflix.png",
+        image : `${source}/netflix.png`,
         discount : 10,
         trend : false,
         category : "Movies & Tv",
