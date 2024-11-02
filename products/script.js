@@ -1,2 +1,2 @@
 import { products } from "../assets/main";
-console.log(products)
+console.log(`hello ${products}`)
