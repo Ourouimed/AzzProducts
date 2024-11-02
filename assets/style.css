@@ -589,3 +589,8 @@ aside {
     padding: 10PX;
     margin-bottom: 10px;
 }
+
+#range {
+    width: 100%;
+    accent-color: var(--main-color);
+}
