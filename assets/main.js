@@ -5,7 +5,7 @@ dateSpan.innerHTML = currentYear
 
 
 //Products list
-let source= "../products/media"
+let source= "./products/media"
 let products = [
     {
         title : "spotify account (12 mo)",
