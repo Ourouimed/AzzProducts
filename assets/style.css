@@ -570,3 +570,10 @@ section {
     width: 100%;
 }
 
+.aside-search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-bottom: 10px;
+}
