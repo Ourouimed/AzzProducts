@@ -108,8 +108,8 @@ header .nav-btns button {
     /* 0.4rem */
 }
 
-header .nav-btns .cart::before {
-    content: "\f07a";
+header .nav-btns .allProducts::before {
+    content: "\f06b";
 }
 
 header .nav-btns .support::before {
