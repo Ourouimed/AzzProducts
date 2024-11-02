@@ -1,5 +1,5 @@
-let AllProducts = document.querySelector(".prod-grid.all")
-const products = [
+let AllProducts = document.querySelector(".products-grid.all")
+let products = [
     {
         title : "spotify account (12 mo)",
         price : 100,
