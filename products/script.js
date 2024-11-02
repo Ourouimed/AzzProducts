@@ -281,4 +281,4 @@ function setupAddToCartButtons(products, section) {
 }
 
 
-setupAddToCartButtons(products, Trend);
+setupAddToCartButtons(products, AllProducts);
