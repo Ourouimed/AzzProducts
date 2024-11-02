@@ -577,3 +577,9 @@ section {
     outline: none;
     background: transparent;
 }
+
+.aside-sec {
+    background: white;
+    padding: 10PX;
+    margin-bottom: 10px;
+}
