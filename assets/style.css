@@ -560,6 +560,12 @@ section {
     gap: 10px;
 }
 
+aside {
+    position: sticky;
+    top: 30px;
+    height: max-content;
+}
+
 .aside-search {
     display: flex;
     align-items: center;
