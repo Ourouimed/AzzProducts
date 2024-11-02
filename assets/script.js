@@ -1,4 +1,4 @@
-let products = [
+const products = [
     {
         title : "spotify account (12 mo)",
         price : 100,
@@ -142,4 +142,4 @@ let products = [
     },
 ]
 
-export default {products}
+export default products
