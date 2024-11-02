@@ -3,7 +3,7 @@ let currentYear = Year.getFullYear(2020)
 let dateSpan = document.querySelector("span.date")
 dateSpan.innerHTML = currentYear
 // Products List
-const products = [
+export const products = [
     {
         title : "spotify account (12 mo)",
         price : 100,
