@@ -594,3 +594,9 @@ aside {
     width: 100%;
     accent-color: var(--main-color);
 }
+
+.aside-sec .price-range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
