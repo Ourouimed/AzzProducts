@@ -553,3 +553,20 @@ section {
     outline: none;
     width: 100%;
 }
+
+#All {
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    gap: 10px;
+}
+
+.aside-search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius: 8px;
+    width: 100%;
+}
+
