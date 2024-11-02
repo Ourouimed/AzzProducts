@@ -147,9 +147,6 @@ const products = [
     },
 ]
 
-export default products
-
-
 let trend = [];
 let Music = [];
 let MoviesTv = [];
