@@ -1,1 +1,3 @@
-export const name ="Test"
+let name ="Test"
+
+export default name
