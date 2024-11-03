@@ -24,7 +24,16 @@ header.innerHTML = `
       <h3 class="logo">
         <a href="${src}"> Social<span>Digital</span> </a>
       </h3>
-      
+      <ul class="navigation">
+        <li><a href="">Home</a></li>
+        <li><a href="">All Products</a></li>
+        <li><a href="">Client Support</a></li>
+        <li><a href="">Updates</a></li>
+      </ul>
+      <ul class="nav-btns">
+        <button class="dark-mode"></button>
+        <a href="" class="support"></a>
+      </ul>
   `
 
 
