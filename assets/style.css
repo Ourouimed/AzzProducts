@@ -671,7 +671,7 @@ ul.nav-btns > a {
     color: white;
     border-radius: 8px;
     position: sticky;
-    bottom: 0;
+    bottom: 15px;
     cursor: pointer;
     WIDTH: 100%;
 }
