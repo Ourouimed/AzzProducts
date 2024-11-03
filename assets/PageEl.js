@@ -32,7 +32,7 @@ header.innerHTML = `
       </ul>
       <ul class="nav-btns">
         <button class="dark-mode"></button>
-        <a href="" class="support"></a>
+        <a href="" class="becomeSeller"></a>
       </ul>
   `
 
