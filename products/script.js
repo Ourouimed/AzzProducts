@@ -52,8 +52,7 @@ fetch(JsonApi).then(result =>{
         productCard.setAttribute("data-title", product.title);
         productCard.appendChild(prodImg);
         productCard.appendChild(prodInfo);
-    
-        return { productCard, addToCart };
+        return { productCard, addToCart };   
     }
     
     // Function to create pop-up
@@ -144,4 +143,22 @@ fetch(JsonApi).then(result =>{
     
     // Call the function for each category
     setupAddToCartButtons(products, AllProducts);
+
 })
+
+
+
+// Filter Search
+const searchInput = document.querySelector('.aside-search input#search');
+searchInput.addEventListener('input', function() {
+    const searchQuery = searchInput.value.toLowerCase();
+    const products = document.querySelectorAll('.product-card');
+    products.forEach(product =>{
+        const productName = product.getAttribute('data-title').toLowerCase();
+        if (productName.includes(searchQuery)) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+});
