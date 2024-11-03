@@ -6,13 +6,13 @@ body.forEach(body => {
   let src =  body.dataset.src
 
 nav.innerHTML =     `
-    <p class="notif-msg>black friday discounts : +50% discount for game products</p>
+    <p class="notif-msg">black friday discounts : +50% discount for game products</p>
       <ul class="social">
         <li><a href="" class="instagram"></a></li>
         <li><a href="" class="x-twitter"></a></li>
         <li><a href="" class="facebook"></a></li>
         <li><a href="" class="whatsapp"></a></li>
-    </ul>
+      </ul>
 `
 
 header.innerHTML = `
