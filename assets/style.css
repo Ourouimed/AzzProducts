@@ -430,9 +430,12 @@ section {
     color: var(--third-color);
     text-decoration: none;
 }
-
-.foot-div ul li {
+.foot-div:first-child {
+    grid-column: 1/3;
+}
+.foot-div ul {
     list-style: none;
+    margin-top: 15px;
 }
 
 .foot-div ul li a {
