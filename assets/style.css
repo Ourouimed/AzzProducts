@@ -243,26 +243,30 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 0.625rem;
-    /* 10px */
 }
 
 .adv-grid .adv img {
     width: 5rem;
     /* 80px */
 }
+.advantages {
+    background: var(--bgcolor2);
+}
+.adv i {
+    color: var(--main-color);
+    font-size: 45px;
+}
 
 .adv {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding: 0.3125rem;
-    /* 0.5rem */
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
     width: 12.5rem;
-    /* 200px */
+    gap: 5px;
+    text-align: center;
 }
-
 .products-grid {
     margin-top: 0.625rem;
     display: flex;
