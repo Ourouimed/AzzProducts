@@ -7,7 +7,7 @@ let MusicSec = document.querySelector(".products-grid.music")
 
 
 
-let JsonApi = "../products/products.json"
+let JsonApi = "./products/products.json"
 fetch(JsonApi).then(result =>{
     let products = result.json()
     return products 
