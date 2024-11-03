@@ -33,7 +33,7 @@ Allbody.forEach(body => {
           </button>
           <a href="" class="becomeSeller">
             All Products
-            <i class="fa-solid fa-store"></i>
+            <i class="bi bi-shop-window"></i>
           </a>
         </ul>
     `

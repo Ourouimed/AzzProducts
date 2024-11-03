@@ -618,3 +618,13 @@ aside {
     cursor: pointer;
     font-size: 18px;
 }
+
+ul.nav-btns > a:hover {
+    color: var(--main-color);
+}
+
+ul.nav-btns > a {
+    color: black;
+    text-decoration: none;
+    transition: .4s ease;
+}
