@@ -1,7 +1,7 @@
 let header = document.querySelector("header")
 let nav =  document.querySelector("nav#top")
 let footer = document.querySelector("footer")
-let body = docment.querySelectorAll("body")
+let body = document.querySelectorAll("body")
 body.forEach(body => {
     console.log(body)
 });
