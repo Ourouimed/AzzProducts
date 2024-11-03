@@ -583,3 +583,8 @@ aside {
     align-items: center;
     gap: 5px;
 }
+
+.notif-msg {
+    color: white;
+    font-size: 14px;
+}
