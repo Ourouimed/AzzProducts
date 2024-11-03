@@ -271,13 +271,13 @@ section {
 }
 
 .product-card {
-    background: white;
+    background: var(--bgcolor2);
     display: flex;
     flex-direction: column;
     border-radius: 0.5rem;
     width: 200px;
     overflow: hidden;
-    box-shadow: 0.125rem 0.125rem 0.3125rem #e1c9c96b;
+    box-shadow: 0.125rem 0.125rem 0.3125rem #0909090a;
     /* 2px 2px 5px */
     position: relative;
 }
@@ -650,7 +650,9 @@ ul.nav-btns > a {
     --bgcolor2: #050e28;
     font-size: 16px;
 }
-
+.dark {
+    color: white;
+}
 .dark header a  , .dark header button {
     color: white;
 }
