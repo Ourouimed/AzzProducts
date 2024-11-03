@@ -6,12 +6,7 @@ body.forEach(body => {
   let src =  body.dataset.src
 
 nav.innerHTML =     `
-    <ul class="pages">
-        <li><a href="${src}">Home</a></li>
-        <li><a href="${src}privacy/">Privacy</a></li>
-        <li><a href="${src}about/">About us</a></li>
-        <li><a href="${src}contact/">Contact Us</a></li>
-    </ul>
+    <p class="notif-msg>black friday discounts : +50% discount for game products</p>
       <ul class="social">
         <li><a href="" class="instagram"></a></li>
         <li><a href="" class="x-twitter"></a></li>
@@ -26,16 +21,20 @@ header.innerHTML = `
       </h3>
       <ul class="navigation">
         <li><a href="">Home</a></li>
-        <li><a href="">All Products</a></li>
-        <li><a href="">Client Support</a></li>
-        <li><a href="">Updates</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">About us</a></li>
+        <li><a href="">Privacy</a></li>
+        <li><a href="">Contact Us</a></li>
       </ul>
       <ul class="nav-btns">
         <button class="dark-mode">
           <i class="fa-solid fa-moon"></i>
           <i class="fa-solid fa-sun"></i>
         </button>
-        <a href="" class="becomeSeller"></a>
+        <a href="" class="becomeSeller">
+          All Products
+          <i class="fa-solid fa-store"></i>
+        </a>
       </ul>
   `
 
