@@ -90,3 +90,23 @@ footer.innerHTML = `
 `
 });
 
+
+
+// Dark Mode
+let DarkBtn = document.querySelector(".dark-mode")
+
+if (localStorage.getItem("dark-mode") === "enabled") {
+  body.classList.add("dark");
+}
+
+const DarkMode = () => {
+  body.classList.toggle("dark");
+  
+  if (body.classList.contains("dark")) {
+    localStorage.setItem("dark-mode", "enabled");
+  } else {
+    localStorage.setItem("dark-mode", "disabled");
+  }
+}
+
+DarkBtn.addEventListener("click", DarkMode);
