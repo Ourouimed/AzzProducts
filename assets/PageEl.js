@@ -54,6 +54,13 @@ Allbody.forEach(body => {
               <li><a href="">Contact</a></li>
             </ul>
           </div>
+          <div class="foot-div">
+            <h2>Get in touch</h2>
+            <ul>
+              <li>+212636642346</li>
+              <li>contact@socialDigital.com</li>
+            </ul>
+          </div>
         </div>
         <div class="foot-bot">
           <div class="copyrights">
