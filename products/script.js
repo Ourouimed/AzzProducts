@@ -149,31 +149,23 @@ fetch(JsonApi).then(result =>{
 
 
 // Filter Search
-const searchInput = document.querySelector('.aside-search input#search');
-searchInput.addEventListener('input', function() {
+let AppFilter = document.querySelector(".apply-filter")
+let searchInput = document.querySelector('.aside-search input#search');
+let RangeInput = document.querySelector("#range")
+
+AppFilter.addEventListener('click', function() {
     const searchQuery = searchInput.value.toLowerCase();
+    const rangeValue = parseFloat(RangeInput.value)
+
     const products = document.querySelectorAll('.product-card');
+
     products.forEach(product =>{
         const productName = product.getAttribute('data-title').toLowerCase();
-        if (productName.includes(searchQuery)) {
-            product.style.display = 'block';
+        const ProductPrice = product.children[1].querySelector('.pay-prod span')
+        if (productName.includes(searchQuery) && (parseFloat(ProductPrice.innerHTML) <= rangeValue)) {
+            product.style.display = 'flex';
         } else {
             product.style.display = 'none';
         }
     });
 });
-
-// Range price filter 
-
-RangeInput = document.querySelector("#range")
-RangeInput.addEventListener("input" , ()=>{
-    const products = document.querySelectorAll('.product-card');
-    products.forEach(product =>{
-        const ProductPrice = product.children[1].querySelector('.pay-prod span')
-        if (parseFloat(ProductPrice.innerHTML) <= +RangeInput.value) {
-            product.style.display = 'block';
-        } else {
-            product.style.display = 'none';
-        }
-    });
-})
