@@ -31,7 +31,10 @@ header.innerHTML = `
         <li><a href="">Updates</a></li>
       </ul>
       <ul class="nav-btns">
-        <button class="dark-mode"></button>
+        <button class="dark-mode">
+          <i class="fa-solid fa-moon"/>
+          <i class="fa-solid fa-sun"/>
+        </button>
         <a href="" class="becomeSeller"></a>
       </ul>
   `
