@@ -524,6 +524,10 @@ section {
     margin-top: 10px;
 }
 
+.buy-product::after {
+    content: "\f08e";
+}
+
 .close-prod-popup {
     position: absolute;
     top: 10px;
