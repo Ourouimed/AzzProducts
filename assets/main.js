@@ -38,7 +38,8 @@ fetch(JsonApi).then(result =>{
     let ImgSrc = "./products/media"
     function createProductCard(product) {
         // create Product image
-        product.image = `${ImgSrc}/${product.image}`
+        let ImgSrc = "./products/media";
+        product.image = product.image.includes(ImgSrc) ? product.image : `${ImgSrc}/${product.image}`;
         let prodImg = document.createElement("img");
         prodImg.setAttribute("src", product.image);
         prodImg.setAttribute("alt", product.title);
