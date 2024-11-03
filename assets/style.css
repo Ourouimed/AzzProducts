@@ -628,3 +628,9 @@ ul.nav-btns > a {
     text-decoration: none;
     transition: .4s ease;
 }
+
+.nav-btns {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

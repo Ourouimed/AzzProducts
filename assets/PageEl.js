@@ -20,20 +20,19 @@ Allbody.forEach(body => {
           <a href="${src}"> Social<span>Digital</span> </a>
         </h3>
         <ul class="navigation">
-          <li><a href="">Home</a></li>
-          <li><a href="">Privacy</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Privacy</a></li>
-          <li><a href="">Contact Us</a></li>
+          <li><a href="${src}">Home</a></li>
+          <li><a href="${src}privacy">Privacy</a></li>
+          <li><a href="${src}about">About us</a></li>
+          <li><a href="${src}contact">Contact Us</a></li>
         </ul>
         <ul class="nav-btns">
           <button class="dark-mode">
             <i class="bi bi-moon"></i>
             <i class="bi bi-sun"></i>
           </button>
-          <a href="" class="becomeSeller">
-            All Products
+          <a href="${src}products" class="becomeSeller">
             <i class="bi bi-shop-window"></i>
+            All Products
           </a>
         </ul>
     `
