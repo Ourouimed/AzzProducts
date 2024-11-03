@@ -383,7 +383,7 @@ section {
 }
 
 .navigation li a:hover {
-    color: var(--main-color)
+    color: var(--main-color) !important;
 }
 
 .banner {
@@ -448,7 +448,7 @@ section {
 }
 
 .foot-div ul li a:hover {
-    color: var(--main-color);
+    color: var(--main-color) !important;
 }
 
 
