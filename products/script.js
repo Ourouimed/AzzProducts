@@ -4,7 +4,7 @@ let dateSpan = document.querySelector("span.date")
 dateSpan.innerHTML = currentYear
 
 let AllProducts = document.querySelector(".products-grid.all")
-let JsonApi = "./products/products.json"
+let JsonApi = "./products.json"
 fetch(JsonApi).then(result =>{
     let products = result.json()
     return products 
