@@ -1,6 +1,10 @@
 let header = document.querySelector("header")
 let nav =  document.querySelector("nav#top")
 let footer = document.querySelector("footer")
+let body = docment.querySelectorAll("body")
+body.forEach(body => {
+    console.log(body)
+});
 
 header.innerHTML = `
       <h3 class="logo">
