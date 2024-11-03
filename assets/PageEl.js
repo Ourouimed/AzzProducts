@@ -41,13 +41,19 @@ Allbody.forEach(body => {
   footer.innerHTML = `
       <div class="foot-top">
           <div class="foot-div">
-            <h2>About Us</h2>
+            <h3>About Us</h3>
             <p>
               Social Digital delivers affordable digital solutions for entertainment and social media, catering to a wide range of online needs.
             </p>
+            <ul class="pay-gatways">
+                <li><img src="${src}media/visa.png" alt="visa"></li>
+                <li><img src="${src}media/mc.png" alt="visa"></li>
+                <li><img src="${src}media/cih.png" alt="visa"></li>
+                <li><img src="${src}media/cashplus.png" alt="visa"></li>
+            </ul>
           </div>
           <div class="foot-div">
-            <h2>Important Links</h2>
+            <h3>Important Links</h3>
             <ul>
               <li><a href="">About Us</a></li>
               <li><a href="">Privacy</a></li>
@@ -55,7 +61,7 @@ Allbody.forEach(body => {
             </ul>
           </div>
           <div class="foot-div">
-            <h2>Get in touch</h2>
+            <h3>Get in touch</h3>
             <ul>
               <li>+212636642346</li>
               <li>contact@socialDigital.com</li>

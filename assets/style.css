@@ -441,7 +441,7 @@ section {
     list-style: none;
 }
 
-.foot-div h2 , .foot-div img {
+.foot-div h2  {
     margin-bottom: 10px;
 }
 
@@ -476,7 +476,7 @@ section {
     display: flex;
 }
 .popUp-content {
-    BACKGROUND: white;
+    BACKGROUND: var(--bgcolor2);
     padding: 20px;
     width: 800px;
     max-width: 90%;
@@ -485,7 +485,7 @@ section {
     gap: 10px;
     align-items: center;
     position: relative;
-}
+} 
 .prices {
     display: flex;
     align-items: center;
@@ -501,21 +501,55 @@ section {
     font-size: 25px;
 }
 
-.buy-product {
-    background: var(--main-color);
-    color: white;
-    text-decoration: none;
-    display: inline-flex;
-    padding: 8px 15px;
-    border-radius: 10px;
-    align-items: center;
-    gap: 5px;
+
+.payment-buttons {
+    display: flex;
+    gap: 3px;
     margin-top: 10px;
 }
+.payment-buttons > a {
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 8px 15px;
+    border: none;
+    background: var(--main-color);
+    color: white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.3125rem;
+    font-size: 0.875rem;
+}
 
-.buy-product::after {
+.dark .payment-buttons > a {
+    color: black;
+}
+
+.payment-buttons > a.buy-shopify {
+    background : #90b945;
+}
+
+.payment-buttons > a.buy-shopify::after {
+    content: "\e057";
+}
+
+.payment-buttons > a.buy-stripe {
+    background : #6058f7;
+}
+
+.payment-buttons > a.buy-stripe::after {
+    content: "\f42a";
+}
+
+.payment-buttons > a.buy-more {
+    background : #757574;
+}
+
+.payment-buttons > a.buy-more::after {
     content: "\f08e";
 }
+
 
 .close-prod-popup {
     position: absolute;
@@ -671,7 +705,25 @@ ul.nav-btns > a {
     color: white;
     border-radius: 8px;
     position: sticky;
-    bottom: 15px;
+    bottom: 30px;
     cursor: pointer;
     WIDTH: 100%;
+}
+
+.pay-gatways li img {
+    width: 100%;
+}
+.pay-gatways li {
+    background: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    border-radius: 6px;
+}
+.pay-gatways {
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 10px;
 }

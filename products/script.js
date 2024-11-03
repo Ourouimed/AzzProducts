@@ -90,13 +90,32 @@ fetch(JsonApi).then(result =>{
        
         let ProdH4 = document.createElement("h4");
         ProdH4.innerHTML = 'Details';
+        let ProdPayH4 = document.createElement("h4")
+        ProdPayH4.innerHTML = "Payment methodes :"
         let ProdP = document.createElement("p");
         ProdP.innerHTML = product.description;
     
-        let ProdA = document.createElement("a");
-        ProdA.setAttribute("href", product.link);
-        ProdA.className = "buy-product";
-        ProdA.innerHTML = "Buy Product";
+        let ShopifyBuy = document.createElement("a");
+        ShopifyBuy.setAttribute("href", product.link);
+        ShopifyBuy.className = "buy-shopify";
+        ShopifyBuy.innerHTML = "Shopify";
+
+        let stripeBuy = document.createElement("a");
+        stripeBuy.setAttribute("href", product.link);
+        stripeBuy.className = "buy-stripe";
+        stripeBuy.innerHTML = "Stripe";
+
+        let morePay = document.createElement("a");
+        morePay.setAttribute("href", product.link);
+        morePay.className = "buy-more";
+        morePay.innerHTML = "More ..";
+
+        let PayButtons = document.createElement("div")
+        PayButtons.className = "payment-buttons"
+
+        PayButtons.appendChild(ShopifyBuy)
+        PayButtons.appendChild(stripeBuy)
+        PayButtons.appendChild(morePay)
         
         let ProdDetails = document.createElement("div");
         ProdDetails.className = "prod-details";
@@ -104,7 +123,8 @@ fetch(JsonApi).then(result =>{
         ProdDetails.appendChild(prices);
         ProdDetails.appendChild(ProdH4);
         ProdDetails.appendChild(ProdP);
-        ProdDetails.appendChild(ProdA);
+        ProdDetails.appendChild(ProdPayH4)
+        ProdDetails.appendChild(PayButtons);
     
         // Create Pop-Up
         let ProdContent = document.createElement("div");
