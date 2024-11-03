@@ -435,7 +435,10 @@ section {
 }
 .foot-div ul {
     list-style: none;
-    margin-top: 15px;
+}
+
+.foot-div h2 , .foot-div img {
+    margin-bottom: 10px;
 }
 
 .foot-div ul li a {
