@@ -2,7 +2,7 @@
     {
         "title": "spotify account (12 mo)",
         "price": 100,
-        "image": "/spotify.png",
+        "image": "spotify.png",
         "discount": 0,
         "trend": true,
         "category": "Music",
@@ -12,7 +12,7 @@
     {
         "title": "Netflix account (12 mo)",
         "price": 90,
-        "image": "/netflix.png",
+        "image": "netflix.png",
         "discount": 10,
         "trend": false,
         "category": "Movies & Tv",
@@ -22,7 +22,7 @@
     {
         "title": "Canva Pro (unlimited)",
         "price": 130,
-        "image": "/canva.png",
+        "image": "canva.png",
         "discount": 20,
         "trend": false,
         "category": "Design",
@@ -32,7 +32,7 @@
     {
         "title": "EA FC25 Ultimate edition",
         "price": 200,
-        "image": "/fc25.png",
+        "image": "fc25.png",
         "discount": 50,
         "trend": true,
         "category": "Gaming",
@@ -42,7 +42,7 @@
     {
         "title": "Efootball Coins - Mobile",
         "price": 20,
-        "image": "/efootball.png",
+        "image": "efootball.png",
         "discount": 15,
         "trend": true,
         "category": "Gaming",
@@ -52,7 +52,7 @@
     {
         "title": "Red Dead Redemption II",
         "price": 300,
-        "image": "/RDRII.png",
+        "image": "RDRII.png",
         "discount": 35,
         "trend": true,
         "category": "Gaming",
@@ -62,7 +62,7 @@
     {
         "title": "xbox game pass (12mo)",
         "price": 100,
-        "image": "/xbox.png",
+        "image": "xbox.png",
         "discount": 5,
         "trend": false,
         "category": "Gaming",
@@ -72,7 +72,7 @@
     {
         "title": "Shahid Vip (24mo)",
         "price": 100,
-        "image": "/shahid.png",
+        "image": "shahid.png",
         "discount": 30,
         "trend": false,
         "category": "Movies & Tv",
@@ -82,7 +82,7 @@
     {
         "title": "Iptv Football (12mo)",
         "price": 80,
-        "image": "/iptv.png",
+        "image": "iptv.png",
         "discount": 0,
         "trend": false,
         "category": "Movies & Tv",
@@ -92,7 +92,7 @@
     {
         "title": "Free Fire Account",
         "price": 50,
-        "image": "/ff.png",
+        "image": "ff.png",
         "discount": 8.2,
         "trend": false,
         "category": "Gaming",
@@ -102,7 +102,7 @@
     {
         "title": "TOD 12 mounth",
         "price": 300,
-        "image": "/tod.jpg",
+        "image": "tod.jpg",
         "discount": 35,
         "trend": true,
         "category": "Movies & Tv",
@@ -112,7 +112,7 @@
     {
         "title": "StarzPlay Premium 12mo",
         "price": 200,
-        "image": "/SP.jpg",
+        "image": "SP.jpg",
         "discount": 15,
         "trend": false,
         "category": "Movies & Tv",
@@ -122,7 +122,7 @@
     {
         "title": "Adobe Photoshop",
         "price": 270,
-        "image": "/ps.jpg",
+        "image": "ps.jpg",
         "discount": 70,
         "trend": false,
         "category": "Design",
