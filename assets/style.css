@@ -581,6 +581,8 @@ aside {
     background: var(--bgcolor2);
     padding: 10PX;
     margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0.125rem 0.125rem 0.3125rem #0909090a;
 }
 
 #range {
@@ -659,4 +661,17 @@ ul.nav-btns > a {
 }
 .dark header a  , .dark header button {
     color: white;
+}
+
+
+.apply-filter {
+    background: var(--main-color);
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    position: sticky;
+    bottom: 0;
+    cursor: pointer;
+    WIDTH: 100%;
 }
