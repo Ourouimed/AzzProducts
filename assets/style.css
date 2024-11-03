@@ -574,7 +574,7 @@ aside {
 }
 
 .aside-sec {
-    background: white;
+    background: var(--bgcolor2);
     padding: 10PX;
     margin-bottom: 10px;
 }
