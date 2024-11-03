@@ -88,6 +88,9 @@ Allbody.forEach(body => {
   `
 });
 
+let dateSpan = document.querySelector("span.date")
+dateSpan.innerHTML = new Date().getFullYear()
+
 
 
 // Dark Mode
