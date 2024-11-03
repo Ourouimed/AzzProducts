@@ -596,7 +596,7 @@ aside {
 }
 
 
-.dark .dark-mode  .bi-moon {
+.dark .dark-mode .bi-moon {
     display: none;
 }
 
@@ -608,7 +608,7 @@ aside {
     display: block;
 }
 
-.dark-mode .bi-moon {
+.dark-mode .bi-sun {
     display: none;
 }
 
