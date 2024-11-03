@@ -624,6 +624,9 @@ aside {
     cursor: pointer;
     font-size: 18px;
 }
+.dark-mode i::before {
+    display: flex;
+}
 
 ul.nav-btns > a:hover {
     color: var(--main-color);
