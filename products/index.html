@@ -17,35 +17,39 @@
     </header>
     <section class="products" id="All">
         <aside>
-            <div class="aside-search">
-              <i class="fa-solid fa-magnifying-glass"></i>
-              <input type="text" placeholder="search products herehg ...">
+            <div class="aside-sec">
+              <h3>Search Products</h3>
+              <div class="aside-search">
+                <input type="text" placeholder="search products herehg ...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </div>
             </div>
             <div class="aside-sec">
               <h3>Browse Categories</h3>
               <div class="check-item">
-                <input type="checkbox" id="games">
-                Games
+                <input type="checkbox" id="games" name="games">
+                <label for="games">Games</label>
               </div>
               <div class="check-item">
-                <input type="checkbox" id="moviesTv">
-                Movies & Tv
+                <input type="checkbox" id="moviestv" name="moviestv">
+                <label for="moviestv">Movies & Tv</label>
               </div>
               <div class="check-item">
-                <input type="checkbox" id="design">
-                Design
+                <input type="checkbox" id="design" name="design">
+                <label for="design">Design</label>
               </div>
               <div class="check-item">
-                <input type="checkbox" id="music">
-                Music
+                <input type="checkbox" id="music" name="music">
+                <label for="music">Music</label>
               </div>
             </div>
             <div class="aside-sec">
               <div class="price-range">
                 <h3>Price (MAD) :</h3>
-                <span>1500</span>
+                <span>Max Price</span>
               </div>
-              <input type="range" min="0" max="2000" id="range">
+              <input id="range" type="range" value="70" min="1" max="500" oninput="this.nextElementSibling.value = this.value">
+              <output>70</output> MAD
             </div>
             <div class="aside-sec">
               <h3>Discount (%)</h3>

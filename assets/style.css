@@ -562,12 +562,12 @@ aside {
 .aside-search {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 5px;
-    padding: 5px;
-    border: 2px solid;
+    padding: 10px 15px;
     border-radius: 8px;
     width: 100%;
-    margin-bottom: 10px;
+    border: 2px solid #ededed;
 }
 
 .aside-search input {
