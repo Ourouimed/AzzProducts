@@ -1,8 +1,3 @@
-let Year = new Date()
-let currentYear = Year.getFullYear(2020)
-let dateSpan = document.querySelector("span.date")
-dateSpan.innerHTML = currentYear
-
 let AllProducts = document.querySelector(".products-grid.all")
 let JsonApi = "./products.json"
 fetch(JsonApi).then(result =>{

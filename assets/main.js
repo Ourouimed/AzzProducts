@@ -1,11 +1,4 @@
-let Year = new Date()
-let currentYear = Year.getFullYear(2020)
-let dateSpan = document.querySelector("span.date")
-dateSpan.innerHTML = currentYear
-
-
-
-// //Create Producte and apend it in main page
+//Create Producte and apend it in main page
 let Trend = document.querySelector(".products-grid.trend")
 let GamingSec = document.querySelector(".products-grid.gaming")
 let MoviesSec = document.querySelector(".products-grid.movies")

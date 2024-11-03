@@ -93,7 +93,14 @@
       <div class="foot-bot">
         <div class="copyrights">
           All Rights Reserved <a href="#"> Digital Services </a
-          ><span class="date"></span> ©
+          ><span class="date">
+            <script>
+              let Year = new Date()
+              let currentYear = Year.getFullYear(2020)
+              let dateSpan = document.querySelector("span.date")
+              dateSpan.innerHTML = currentYear
+            </script>
+          </span> ©
         </div>
         <div class="powred-by">
           Powered By
@@ -101,6 +108,5 @@
         </div>
       </div>
     </footer>
-    <script src="./test.js"></script>
   </body>
 </html>
