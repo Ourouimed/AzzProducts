@@ -43,35 +43,15 @@ Allbody.forEach(body => {
           <div class="foot-div">
             <h2>About Us</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam sequi
-              error natus animi at ad perspiciatis, inventore saepe placeat
+              Social Digital delivers affordable digital solutions for entertainment and social media, catering to a wide range of online needs.
             </p>
           </div>
           <div class="foot-div">
-            <h2>Categories</h2>
+            <h2>Important Links</h2>
             <ul>
-              <li><a href="">Gaming</a></li>
-              <li><a href="">Movies</a></li>
-              <li><a href="">New</a></li>
-              <li><a href="">Entertiment</a></li>
-            </ul>
-          </div>
-          <div class="foot-div">
-            <h2>Categories</h2>
-            <ul>
-              <li><a href="">Gaming</a></li>
-              <li><a href="">Movies</a></li>
-              <li><a href="">New</a></li>
-              <li><a href="">Entertiment</a></li>
-            </ul>
-          </div>
-          <div class="foot-div">
-            <h2>Categories</h2>
-            <ul>
-              <li><a href="">Gaming</a></li>
-              <li><a href="">Movies</a></li>
-              <li><a href="">New</a></li>
-              <li><a href="">Entertiment</a></li>
+              <li><a href="">About Us</a></li>
+              <li><a href="">Privacy</a></li>
+              <li><a href="">Contact</a></li>
             </ul>
           </div>
         </div>
