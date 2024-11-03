@@ -596,19 +596,19 @@ aside {
 }
 
 
-.dark .dark-mode  .fa-moon {
+.dark .dark-mode  .bi-moon {
     display: none;
 }
 
-.dark-mode .fa-moon {
+.dark-mode .bi-moon {
     display: block;
 }
 
-.dark .dark-mode  .fa-sun {
+.dark .dark-mode  .bi-sun {
     display: block;
 }
 
-.dark-mode .fa-moon {
+.dark-mode .bi-moon {
     display: none;
 }
 

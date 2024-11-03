@@ -28,8 +28,8 @@ Allbody.forEach(body => {
         </ul>
         <ul class="nav-btns">
           <button class="dark-mode">
-            <i class="fa-solid fa-moon"></i>
-            <i class="fa-solid fa-sun"></i>
+            <i class="bi bi-moon"></i>
+            <i class="bi bi-sun"></i>
           </button>
           <a href="" class="becomeSeller">
             All Products
