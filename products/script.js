@@ -162,3 +162,18 @@ searchInput.addEventListener('input', function() {
         }
     });
 });
+
+// Range price filter 
+
+RangeInput = document.querySelector("#range")
+RangeInput.addEventListener("input" , ()=>{
+    const products = document.querySelectorAll('.product-card');
+    products.forEach(product =>{
+        const ProductPrice = product.children[1].querySelector('.pay-prod span')
+        if (parseFloat(ProductPrice.innerHTML) <= +RangeInput.value) {
+            product.style.display = 'block';
+        } else {
+            product.style.display = 'none';
+        }
+    });
+})
