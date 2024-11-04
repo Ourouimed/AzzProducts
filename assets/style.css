@@ -778,7 +778,19 @@ ul.nav-btns > a {
     outline: 1.5px solid var(--main-color);
 }
 
-.dark .contact-form input , .dark .contact-form textarea {
+.contact-form select {
+    background: var(--bgcolor2);
+    width: 100%;
+    font-size: 1.4em;
+    padding: 15px 20px;
+    border: 2px solid #c5c5c5;
+    border-radius: 10px;
+    outline: none;
+    transition: .4s all ease;
+    margin-top: 5px;
+}
+
+.dark .contact-form input , .dark .contact-form textarea  , .dark .contact-form select{
     color: white;
     border-color: #202069;
 }
