@@ -16,13 +16,17 @@
     <header></header>
     <section class="contact-form">
       <h1>Contact Us</h1>
-      <div class="input-double">
-        <input type="text" placeholder="Your name">
-        <input type="email" placeholder="Your email">
-      </div>
-      <input type="text" placeholder="Message Object">
-      <textarea name="" id="" placeholder="Your message here"></textarea>
-      <button>Send message</button>
+      <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key" value="fff822b3-e0fc-4179-b295-335be9b7ab51">
+        <div class="input-double">
+          <input type="text" placeholder="Your name" name="name" required>
+          <input type="email" placeholder="Your email"  name="email" required>
+        </div>
+        <input type="text" placeholder="Message Object" name="object">
+        <textarea name="message" placeholder="Your message here" required></textarea>
+        <button type="submit">Send message</button>
+      </form>
+
     </section>
     <footer>
 
