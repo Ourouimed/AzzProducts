@@ -251,12 +251,12 @@ section {
 .advantages {
     background: var(--bgcolor2);
 }
-.advantages > h3 {
+.advantages > h2 {
     text-align: center;
 }
 
-.categories > h3  , .products > h3 {text-align: center;}
-.categories > h3 span , .products > h3 span  , .advantages > h3 span{
+.brands-grid > h2 , .products > h2 , .products > p {text-align: center;}
+.brands-grid  > h2 span , .products > h2 span  , .advantages > h2 span{
     color: var(--main-color);
 }
 
@@ -469,7 +469,7 @@ ul.nav-btns > a {
     margin-top: 10px;
 }
 
-.categories-items {
+.brands {
     display: flex;
     align-items: center;
     margin-top: 1rem;
@@ -486,7 +486,7 @@ ul.nav-btns > a {
     justify-content: center;
 }  
 
-.product{
+.type1 .product{
     position: relative;
     width: 16rem;
     overflow: hidden;
@@ -494,18 +494,18 @@ ul.nav-btns > a {
     cursor: pointer;
     aspect-ratio: 9/11;
 }
-.product.type1 img {
+.type1 .product img {
     width: 100%;
     height: 100%;
     transition: .4s ease;
 }
 
 
-.prod-info h3 {
+.type1 .prod-info h3 {
     color: white;
 }
 
-.prod-info {
+.type1 .prod-info {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -514,7 +514,7 @@ ul.nav-btns > a {
     z-index: 2;
 }
 
-.product.type1:hover > img {
+.type1 .product:hover > img {
     transform: scale(1.2);
 }
 
@@ -533,7 +533,7 @@ ul.nav-btns > a {
     justify-content: space-between;
 }
 
-.product.type1::before {
+.type1 .product::before {
     content: "";
     position: absolute;
     background: linear-gradient(180deg, transparent, black);
@@ -543,21 +543,47 @@ ul.nav-btns > a {
 }
 
 
-.product.type1 .price {
+.type1 .product .price {
     color: white;
 }
 
-.cat {
+
+
+
+
+.type2 .product {
+    border: 0.1em solid #ededed;
+    border-radius: 0.5em;
+    overflow: hidden;
+    position: relative;
+    height: 20rem;
+    WIDTH: 15em;
+}
+
+.type2 .product > img {
+    width: 100%;
+}
+.type2 .product .prod-info {
+    padding: 0.8em;
+    z-index: 2;
+    background: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.brand {
     text-align: center;
 }
-.cat > a {
+.brand > a {
     width: 10rem;
     aspect-ratio: 16/9;
     display: block;
     overflow: hidden;
     border-radius: 0.6em;
 }
-.cat > a img {
+.brand > a img {
     width: 100%;
     height: 100%;
 }
