@@ -27,11 +27,11 @@ Allbody.forEach(body => {
         </ul>
         <ul class="nav-btns">
           <button class="dark-mode">
-            <i class="bi bi-moon"></i>
-            <i class="bi bi-sun"></i>
+            <ion-icon class="dark-icon" name="moon-outline"></ion-icon>
+            <ion-icon class="light-icon" name="sunny-outline"></ion-icon>
           </button>
           <a href="${src}products" class="becomeSeller">
-            <i class="bi bi-shop-window"></i>
+            <ion-icon name="storefront-outline"></ion-icon>
             All Products
           </a>
         </ul>
@@ -46,10 +46,10 @@ Allbody.forEach(body => {
               Social Digital delivers affordable digital solutions for entertainment and social media, catering to a wide range of online needs.
             </p>
             <ul class="pay-gatways">
-                <li><img src="${src}media/visa.png" alt="visa"></li>
-                <li><img src="${src}media/mc.png" alt="visa"></li>
-                <li><img src="${src}media/cih.png" alt="visa"></li>
-                <li><img src="${src}media/cashplus.png" alt="visa"></li>
+                <li><img src="${src}assets/media/visa.png" alt="visa"></li>
+                <li><img src="${src}assets/media/mc.png" alt="visa"></li>
+                <li><img src="${src}assets/media/cih.png" alt="visa"></li>
+                <li><img src="${src}assets/media/cashplus.png" alt="visa"></li>
             </ul>
           </div>
           <div class="foot-div">
@@ -71,7 +71,7 @@ Allbody.forEach(body => {
         <div class="foot-bot">
           <div class="copyrights">
             All Rights Reserved <a href="#"> Digital Services </a
-            ><span class="date"></span> ©
+            ><span class="date">${new Date().getFullYear()}</span> ©
           </div>
           <div class="powred-by">
             Powered By
@@ -80,9 +80,6 @@ Allbody.forEach(body => {
         </div>
   `
 });
-
-let dateSpan = document.querySelector("span.date")
-dateSpan.innerHTML = new Date().getFullYear()
 
 
 
