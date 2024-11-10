@@ -16,7 +16,7 @@ fetch(ApiJson).then(Data =>{
             let item = document.createElement("div")
             item.className ="product"
             //Create Image
-            let src=".."
+            let src="."
             let itemImage = document.createElement("img")
             itemImage.src = `${src}/${product.productImage}`
             itemImage.alt = product.productTitle
