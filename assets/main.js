@@ -1,4 +1,4 @@
-let ApiJson = '../products/products.json'
+let ApiJson = './products/products.json'
 let AccountsGrid = document.querySelector(".products.accounts .products-items")
 let GamesGrid = document.querySelector(".products.games .products-items")
 let GC_Grid = document.querySelector(".products.gift-cards .products-items")
