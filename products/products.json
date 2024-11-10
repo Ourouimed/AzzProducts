@@ -1,23 +1,271 @@
-{
-    "Acconts" : 
-    [
-        {
-            "title" : "Spotify",
-            "image" : "",
-            "url" : "",
-            "items" : [
-                {
-                    "title" : "Spotify 1month - individual",
-                    "image" : "",
-                    "price" : 20,
-                    "url" : "",
-                    "discount" : 10,
-                    "description" : "hhhhhh"
-                }
-            ]
-        }
-    ],
-    "video_Games" : [],
-    "items" : [],
-    "Gift_cards" : []
-}
+[
+    {
+        "category" : "Accounts",
+        "products" : [
+            {
+                "productTitle" : "Spotify premium",
+                "productImage" : "products/accounts/spotify/spotify_main.png",
+                "prodcutUrl" : "products/accounts/spotify/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - individual" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_1mo_indiv.png",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 2,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - individual" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_3mo_indiv.png",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - individual" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_12mo_indiv.png",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            },
+            {
+                "productTitle" : "netflix premium",
+                "productImage" : "products/accounts/netflix/netflix_main.png",
+                "prodcutUrl" : "products/accounts/netflix/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "netflix 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            },
+            {
+                "productTitle" : "shahid premium",
+                "productImage" : "products/accounts/shahid/shahid_main.png",
+                "prodcutUrl" : "products/accounts/shahid/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "netflix 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            },
+            {
+                "productTitle" : "steam premium",
+                "productImage" : "products/accounts/steam/steam_main.png",
+                "prodcutUrl" : "products/accounts/steam/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "netflix 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            },
+            {
+                "productTitle" : "xbox premium",
+                "productImage" : "products/accounts/xbox/xbox_main.png",
+                "prodcutUrl" : "products/accounts/xbox/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "netflix 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "netflix 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category" : "Games",
+        "products" : [
+            {
+                "productTitle" : "EAFC 2025",
+                "productImage" : "products/games/eafc/eafc_main.webp",
+                "prodcutUrl" : "products/games/eafc/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            },
+            {
+                "productTitle" : "Red dead II",
+                "productImage" : "products/games/RDRII/RDRII_main.png",
+                "prodcutUrl" : "products/games/RDRII/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            }
+            
+        ]
+    },
+    {
+        "category" : "Gift Cards",
+        "products" : [
+            {
+                "productTitle" : "Play Station",
+                "productImage" : "products/gift_cards/PlayStation/PlayStation_main.webp",
+                "prodcutUrl" : "products/gift_cards/PlayStation/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            }
+            ,
+            {
+                "productTitle" : "Google Play",
+                "productImage" : "products/gift_cards/GooglePlay/GooglePlay_main.webp",
+                "prodcutUrl" : "products/gift_cards/GooglePlay/",
+                "productItems" : [
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - individual" ,
+                        "ItemImage" : "",
+                        "ItemPrice" : "90",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : ""
+                    }
+                ]
+            }
+        ]
+    }
+]
