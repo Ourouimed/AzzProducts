@@ -26,20 +26,65 @@ fetch(ApiJson).then(Data =>{
             price.className ="price"
             if(Item.ItemDiscount > 0){
                 let discount = (Item.ItemPrice * Item.ItemDiscount)/100
-                price.innerHTML = `${Item.ItemPrice - discount}$`
+                price.innerHTML = `${(Item.ItemPrice - discount).toFixed(2)}$`
                 let DiscountItem = document.createElement("span")
                 DiscountItem.className ="discount"
                 DiscountItem.innerHTML = `${-Item.ItemDiscount}%`
                 item.append(DiscountItem)
             }
             else {
-                price.innerHTML = `${Item.ItemPrice}$`
+                price.innerHTML = `${(Item.ItemPrice)}$`
             }
             
             // Create Button 
             let buy_Product = document.createElement("button")
             buy_Product.className = "buy-product"
             buy_Product.innerHTML = `Buy Product`
+            buy_Product.addEventListener("click" , ()=>{
+                //Create PopUp
+                let popUpTitle = document.createElement("h1")
+                popUpTitle.innerHTML = Item.ItemTitle
+                let oldPrice = document.createElement("span")
+                oldPrice.className = "old-price"
+                let newPrice = document.createElement("span")
+                newPrice.className = "new-price"
+                let PricePopUp = document.createElement("div")
+                PricePopUp.className= "prod-price-popup"
+                if(Item.ItemDiscount > 0){
+                    let discount = (Item.ItemPrice * Item.ItemDiscount)/100
+                    oldPrice.innerHTML = `${Item.ItemPrice}$`
+                    newPrice.innerHTML = `${(Item.ItemPrice - discount).toFixed(2)}$`
+                    PricePopUp.append(oldPrice , newPrice) 
+                }
+                else {
+                    newPrice.innerHTML = `${(Item.ItemPrice)}$`     
+                    PricePopUp.append(newPrice)           
+                }
+                let DescTitle = document.createElement("h4")
+                DescTitle.innerHTML = "Description"
+                let Desc = document.createElement("p")
+                Desc.innerHTML = `${Item.ItemDescription}`
+                let PopupText = document.createElement("div")
+                PopupText.className = "popup-text"
+                PopupText.append(popUpTitle ,PricePopUp , DescTitle ,Desc)
+                //Popup Image
+                let PopuPimg = document.createElement("img")
+                PopuPimg.src = `${src}/${Item.ItemImagePopUp}`
+                // `<ion-icon class="close-popup" name="close-outline"></ion-icon>`
+                let closePopUp = document.createElement("ion-icon")
+                closePopUp.className = "close-popup"
+                closePopUp.name = "close-outline"
+                let PopuPContent = document.createElement("div")
+                PopuPContent.className = "popUp-content"
+                PopuPContent.append(closePopUp , PopuPimg ,PopupText)
+                let PopUp = document.createElement("div")
+                PopUp.className = "item-popup"
+                PopUp.append(PopuPContent)
+                grid.append(PopUp)
+                closePopUp.addEventListener("click" , ()=>{
+                    PopUp.remove()
+                })
+            })
             let PriceDiv = document.createElement("div")
             PriceDiv.className = "price-div"
             PriceDiv.append(price,buy_Product)

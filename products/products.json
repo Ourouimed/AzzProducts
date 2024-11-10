@@ -10,23 +10,35 @@
                     {
                         "ItemTitle" : "Spotify 1 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_1mo_indiv.png",
-                        "ItemPrice" : "90",
-                        "ItemDiscount" : 2,
-                        "ItemDescription" : ""
+                        "ItemPrice" : "3.00",
+                        "ItemDiscount" : 0,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_3mo_indiv.png",
-                        "ItemPrice" : "90",
-                        "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemPrice" : "10",
+                        "ItemDiscount" : 10,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_12mo_indiv.png",
-                        "ItemPrice" : "90",
-                        "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemPrice" : 47,
+                        "ItemDiscount" : 20,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             },
@@ -40,7 +52,11 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 3 mounth - individual" ,
@@ -54,7 +70,11 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             },
@@ -68,21 +88,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             },
@@ -96,21 +128,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             },
@@ -124,21 +168,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "netflix 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             }
@@ -157,21 +213,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             },
@@ -185,21 +253,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             }
@@ -219,21 +299,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             }
@@ -248,21 +340,33 @@
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     },
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "",
                         "ItemPrice" : "90",
                         "ItemDiscount" : 0,
-                        "ItemDescription" : ""
+                        "ItemDescription" : "",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
                     }
                 ]
             }
