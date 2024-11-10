@@ -1,4 +1,4 @@
-let ApiJson = '../../products.json'
+let ApiJson = '../products.json'
 let Grid = document.querySelector(".products-items")
 
 fetch(ApiJson).then(Data =>{
