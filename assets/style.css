@@ -44,9 +44,9 @@
     --main-color: #0820ff;
     --bgcolor1: #ededed;
     --bgcolor2: #ffffff;
-    --sides-padding: 10%;
+    --sides-padding: 15%;
     --second-color: #0819ad;
-    --third-color: #71afff;
+    --third-color: #007cff;
     font-size: 16px;
 }
 
@@ -176,7 +176,7 @@ section {
 
 .main-content .text-content span {
     background: var(--third-color);
-    color: black;
+    color: white;
     padding: 0.2rem 1rem;
     border-radius: 0.5rem;
     margin-bottom: 0.3125rem;
@@ -677,7 +677,7 @@ ul.nav-btns > a {
 .popUp-content {
     background: var(--bgcolor2);
     padding: 0.5em;
-    width: 40rem;
+    width: 50rem;
     max-width: 90%;
     box-shadow: 0 0 5px #cacaca52;
     border-radius: 0.4em;
@@ -685,10 +685,11 @@ ul.nav-btns > a {
     align-items: center;
     gap: 1rem;
     position: relative;
+    overflow: hidden;
 }
 
 .popUp-content > img {
-    width: 10rem;
+    width: 14rem;
     border-radius: .4em;
 }
 
@@ -709,6 +710,36 @@ ul.nav-btns > a {
     right: 0.3em;
     font-size: 1.5em;
 }
+
+
+h1.prod-head {
+    padding: 2em;
+    margin: 1rem 0;
+    text-align: center;
+    border-radius: .4em;
+}
+
+
+
+.pay-btns {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;;
+    flex-wrap : wrap;
+    margin-top: 1rem;
+}
+.pay-btns > a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+.pay-btns > a.shopify{background: #95bf47;}.pay-btns > a.shopify::before {content: "\e057";}
+.pay-btns > a.paypal{background: #29346a;}.pay-btns > a.paypal::before {content: "\f1ed";}
+.pay-btns > a.more{background: var(--main-color);}.pay-btns > a.more::before {content: "\f05a";}
 
 
 .dark .search-input input {

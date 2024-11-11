@@ -10,8 +10,8 @@
                     {
                         "ItemTitle" : "Spotify 1 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_1mo_indiv.png",
-                        "ItemPrice" : "3.00",
-                        "ItemDiscount" : 0,
+                        "ItemPrice" : 10.99,
+                        "ItemDiscount" : 76.25,
                         "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
                         "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
                         "ItemUrl1" : "",
@@ -21,10 +21,21 @@
                     {
                         "ItemTitle" : "Spotify 3 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_3mo_indiv.png",
-                        "ItemPrice" : "10",
-                        "ItemDiscount" : 10,
+                        "ItemPrice" : 29.7,
+                        "ItemDiscount" : 78.89,
                         "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
-                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_3mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 6 mounth - individual" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_6mo_indiv.png",
+                        "ItemPrice" : 59.4,
+                        "ItemDiscount" : 79.26,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_6mo_indiv_popup.png",
                         "ItemUrl1" : "",
                         "ItemUrl2" : "",
                         "ItemUrl3" : ""
@@ -32,10 +43,54 @@
                     {
                         "ItemTitle" : "Spotify 12 mounth - individual" ,
                         "ItemImage" : "products/accounts/spotify/spotify_12mo_indiv.png",
-                        "ItemPrice" : 47,
-                        "ItemDiscount" : 20,
+                        "ItemPrice" : 111.8,
+                        "ItemDiscount" : 85.5,
                         "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for individuals, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
-                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_indiv_popup.png",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_12mo_indiv_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 1 mounth - Family" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_1mo_family.png",
+                        "ItemPrice" : 16.99,
+                        "ItemDiscount" : 87.99,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for Familys, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_1mo_family_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 3 mounth - Family" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_3mo_family.png",
+                        "ItemPrice" : 29.99,
+                        "ItemDiscount" : 84.26,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for Familys, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_3mo_family_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 6 mounth - Family" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_6mo_family.png",
+                        "ItemPrice" : 59.99,
+                        "ItemDiscount" : 87.18,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for Familys, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_6mo_family_popup.png",
+                        "ItemUrl1" : "",
+                        "ItemUrl2" : "",
+                        "ItemUrl3" : ""
+                    },
+                    {
+                        "ItemTitle" : "Spotify 12 mounth - Family" ,
+                        "ItemImage" : "products/accounts/spotify/spotify_12mo_family.png",
+                        "ItemPrice" : 111.8,
+                        "ItemDiscount" : 89.35,
+                        "ItemDescription" : "Spotify offers various account plans to enhance music streaming experiences. Free accounts include ads and limited features, while Premium accounts, available for Familys, students, or families, provide ad-free listening, offline downloads, and higher audio quality. The Premium Family plan even includes parental controls and allows multiple profiles.",
+                        "ItemImagePopUp" : "products/accounts/spotify/spotify_12mo_family_popup.png",
                         "ItemUrl1" : "",
                         "ItemUrl2" : "",
                         "ItemUrl3" : ""
